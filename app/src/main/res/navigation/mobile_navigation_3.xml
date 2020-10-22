@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_total_stats_3">
+
+    <fragment
+        android:id="@+id/navigation_total_stats_3"
+        android:name="com.nguyen.tccovid19j.TotalStatsFragment3"
+        android:label="@string/title_total_stats_3"
+        tools:layout="@layout/fragment_total_stats" />
+
+    <fragment
+        android:id="@+id/navigation_region_stats_3"
+        android:name="com.nguyen.tccovid19j.RegionStatsFragment3"
+        android:label="@string/title_region_stats"
+        tools:layout="@layout/fragment_region_stats" />
+
+    <fragment
+        android:id="@+id/navigation_covid_map_3"
+        android:name="com.nguyen.tccovid19j.CovidMapFragment3"
+        android:label="@string/title_covid_map"
+        tools:layout="@layout/fragment_covid_map" />
+
+</navigation>
